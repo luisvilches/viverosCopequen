@@ -13,7 +13,7 @@
 	max-width: 250px !important;
     margin-top: 3px;
 }
-.navbar-fixed nav{
+.navbar nav{
 	background-color: #FFFFFF !important;
 	height: 80px !important;
 }
@@ -127,25 +127,25 @@ footer input[type=text]{
 }
 
 .banner-2 {
-    background-image: url(../img/fondos/fondo-2.jpg);
+    background-image: url(../img/fondos/foto-empresa.jpg);
     background-size: cover;
     background-position: 50% 30%;
     height: 200px;
 }
 .banner-3 {
-    background-image: url(../img/fondos/fondo-3.jpg);
+    background-image: url(../img/fondos/foto-productos.jpg);
     background-size: cover;
     background-position: 50% 30%;
     height: 200px;
 }
 .banner-4 {
-    background-image: url(../img/fondos/fondo-4.jpg);
+    background-image: url(../img/fondos/foto-proveedores.jpg);
     background-size: cover;
     background-position: 50% 30%;
     height: 200px;
 }
 .banner-5 {
-    background-image: url(../img/fondos/fondo-5.jpg);
+    background-image: url(../img/fondos/foto-contacto.jpg);
     background-size: cover;
     background-position: 50% 30%;
     height: 200px;
@@ -153,28 +153,31 @@ footer input[type=text]{
 
 @media (max-width: 480px) {
   .banner-2 {
-    background-image: url(../img/fondos/fondo-2.jpg);
+    background-image: url(../img/fondos/foto-empresa.jpg);
     background-size: cover;
     background-position: 20%;
     height: 100px;
   }
   .banner-3 {
-    background-image: url(../img/fondos/fondo-3.jpg);
+    background-image: url(../img/fondos/foto-productos.jpg);
     background-size: cover;
     background-position: 20%;
     height: 100px;
   }
   .banner-4 {
-    background-image: url(../img/fondos/fondo-4.jpg);
+    background-image: url(../img/fondos/foto-proveedores.jpg);
     background-size: cover;
     background-position: 20%;
     height: 100px;
   }
   .banner-5 {
-    background-image: url(../img/fondos/fondo-5.jpg);
+    background-image: url(../img/fondos/foto-contacto.jpg);
     background-size: cover;
     background-position: 20%;
     height: 100px;
+  }
+  .text-bold{
+    padding: 0 !important;
   }
 }
 
@@ -311,4 +314,9 @@ footer input[type=text]{
 }
 .no-border-button{
     border: none !important;
+}
+.text-bold{
+    font-weight: 900;
+    padding-top: 2.5em;
+    padding-left: 3em;
 }
